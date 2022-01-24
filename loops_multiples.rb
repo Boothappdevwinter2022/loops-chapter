@@ -19,3 +19,8 @@
 
 p "Enter a number:"
 
+user_number = gets.to_i
+
+1.upto(10) do |factor|
+  p factor * user_number
+end
